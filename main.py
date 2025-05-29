@@ -1,7 +1,5 @@
-# Aufgaben
-#  automatisch email versenden
-#  AI implementieren die Wetter interpretiert
-#  Wetterapp webscrappen
+# Mainscript
+# uses all function to send a personalised mail about the weather to everybody in the mail-list
 
 
 from Email_senden import *
