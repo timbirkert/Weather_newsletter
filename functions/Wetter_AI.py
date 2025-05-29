@@ -1,6 +1,6 @@
+#function that put an promt into an prompt for an AI and outputs the Response of the AI
+
 import cohere
-
-
 
 
 def cohere_prompt( prompt):
