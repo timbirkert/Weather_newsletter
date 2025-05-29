@@ -3,7 +3,7 @@ import datetime
 
 def Wetter_check(Ort):
     # API-Schlüssel (ersetze durch deinen eigenen Schlüssel)
-    api_key = "49cc3e7778586f1221bf6f08992e2d3f"
+    api_key = "your api key"
     # Stadt, für die du das Wetter abrufen möchtest
     city = Ort
     # Basis-URL der OpenWeatherMap API
@@ -41,11 +41,12 @@ def Wetter_check(Ort):
 
     return antwort
 
+#same function but for less elaborate Weatheroutput
 def Wetter_check_simple():
     import requests
 
     # API-Schlüssel (ersetze durch deinen eigenen Schlüssel)
-    api_key = "49cc3e7778586f1221bf6f08992e2d3f"
+    api_key = "your Api Key"
     # Stadt, für die du das Wetter abrufen möchtest
     city = "Bayreuth"
     # Basis-URL der OpenWeatherMap API
