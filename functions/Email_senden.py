@@ -2,10 +2,10 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-def email_senden(empfänger,text):
-
-    email = "wetter.chef@gmx.de"
-    password = "Wetterchefpasswort"
+def email_senden(empfänger,text): #function that sends a mail from the mail account you 
+                                  # put into the mail variable
+    email = "your.mail@gmx.de"
+    password = "yourpasswort"
     empfaenger = empfänger
     betreff = "Täglicher Wetterbericht"
     inhalt = text
