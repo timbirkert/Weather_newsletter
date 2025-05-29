@@ -10,8 +10,8 @@ Here’s an example of the email that will be sent:
 When you want to automize the code you can use a workflow automation platform like Pipedream to automaticly trigger the newsletter every day to a specific time.
 
 <p align="center">
-  <img src="pictures/timer.png" alt="Timer" width="400" />
-  <img src="pictures/pipedream%20code.png" alt="Pipedream Code" width="400"/>
+  <img src="pictures/timer.png" alt="Timer" width="45%" style="height:300px" />
+  <img src="pictures/pipedream%20code.png" alt="Pipedream Code" width="45%" style="height:300px"/>
 </p>
 
 # How?
